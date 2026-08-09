@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import "./Interview.css";
-
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://ai-interview-agent-s4da.onrender.com";
 const TOTAL_QUESTIONS = 8;
 
 const ACTIVE_SESSION_KEY = "interviewSessionId";

@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import "./Dashboard.css";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://ai-interview-agent-s4da.onrender.com";
 
 const ACTIVE_SESSION_KEY = "interviewSessionId";
 const COMPLETED_SESSION_KEY = "completedInterviewSessionId";
