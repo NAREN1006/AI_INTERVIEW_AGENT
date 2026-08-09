@@ -38,6 +38,7 @@ app = FastAPI(
     title="AI Interview Agent",
     version="1.0.0",
 )
+
 init_database()
 
 app.add_middleware(
@@ -45,6 +46,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://localhost:5175",
+        "https://ai-interview-agent-c4xq.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
