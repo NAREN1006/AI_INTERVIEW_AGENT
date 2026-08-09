@@ -23,12 +23,11 @@ function Navbar() {
         {/* Navigation */}
         <div className="nav-links">
           <a href="#home">Home</a>
+
           <a href="#features">Features</a>
+
           <a href="#how-it-works">How It Works</a>
-          <a href="#Dashboard"></a>
 
-
-          {/* Dashboard */}
           <button
             className="nav-link-button"
             onClick={() => navigate("/dashboard")}
@@ -37,7 +36,7 @@ function Navbar() {
           </button>
         </div>
 
-        {/* Button */}
+        {/* Start Interview Button */}
         <button
           className="nav-button"
           onClick={() => navigate("/interview")}
