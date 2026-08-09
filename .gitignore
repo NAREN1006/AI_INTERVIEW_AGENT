@@ -17,3 +17,4 @@ htmlcov/
 # Chroma vector database
 backend/chroma_db/
 backend/rag/chroma_db/
+frontend/node_modules/
