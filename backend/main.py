@@ -22,7 +22,7 @@ from session_manager import (
     mark_interview_complete,
 )
 
-from database import SessionLocal
+from database import SessionLocal, init_database
 from models import Interview, InterviewQuestion
 
 from breeth_memory import save_memory, search_memory
@@ -38,6 +38,7 @@ app = FastAPI(
     title="AI Interview Agent",
     version="1.0.0",
 )
+init_database()
 
 app.add_middleware(
     CORSMiddleware,
