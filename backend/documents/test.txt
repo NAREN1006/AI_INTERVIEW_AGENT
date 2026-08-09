@@ -1,0 +1,5 @@
+Machine Learning is a branch of artificial intelligence.
+It allows computers to learn patterns from data.
+Python is commonly used for machine learning projects.
+Natural Language Processing deals with human language.
+RAG combines retrieval with language model generation.
