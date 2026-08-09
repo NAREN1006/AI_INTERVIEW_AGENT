@@ -44,15 +44,14 @@ init_database()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "https://ai-interview-agent-c4xq.onrender.com",
         "http://localhost:5173",
         "http://localhost:5175",
-        "https://ai-interview-agent-c4xq.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 INTERVIEW_QUESTION_COUNT = 8
 
 
